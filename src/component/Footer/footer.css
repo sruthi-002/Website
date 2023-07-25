@@ -1,0 +1,17 @@
+.color
+{
+    background-color: #537c4a;
+}
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: auto;
+    width: auto;
+    background: rgb(120, 162, 120);
+    color:white;
+  }
